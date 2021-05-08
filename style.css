@@ -82,7 +82,7 @@ a {
     padding: 8px 24px;
     opacity: 0.8;
     display: inline-block;
-    border-raius: 4px;
+    border-radius: 4px;
     text-align: center;
     cursor: pointer;
 }
@@ -125,7 +125,7 @@ header {
 
 .header-right a,
 .header-right span {
-    line-height:65px;
+    line-height: 65px;
     padding: 0 25px;
     color: #FFFFFF;
     display: block;
@@ -162,7 +162,7 @@ signup-modal-wrapper {
     text-align: center;
 }
 
-.fa-time {
+.fa-times {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -180,7 +180,7 @@ signup-modal-wrapper {
     margin-bottom: 40px;
 }
 
-#signup-form {
+#signup-form input {
     width: 320px;
     margin-bottom: 20px;
     font-size: 12px;
