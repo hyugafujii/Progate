@@ -1,5 +1,5 @@
 @media all and (max-width: 1000px) {
-    modal {
+    .modal {
         left: 22%;
     }
 
@@ -8,7 +8,7 @@
     }
 
     .lesson {
-        width: 50px;
+        width: 50%;
         margin-bottom: 50px;
     }
 
