@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head></head>
-        <meta charset="utf-8">
-        <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>PRACTICE</title>
-        <link herf="http://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-        <link rel="stylesheet" herf="style.css">
-        <link rel="stylesheet" herf="responsive.css">
+        <link href="http://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" hrref="responsive.css" />
     </head>
     <body>
         <header>
-            <div class="container">
-                <div class="header-left">
-                    <img class="logo" src="http;//prog-8.com/images/html/advanced/main_logo.png">
+            <div class="href-container" />
+                <div class="header-left" />
+                    <img class="logo" src="http;//prog-8.com/images/html/advanced/main_logo.png" />
                 </div>
-                <i class="menu-icon fas fa-bars"></i>
-                <i class="menu-cancel fas fa-times"></i>
                 <div class="header-right">
-                    <a herf="#lesson">レッスン</a>
-                    <a herf="#" class="signup-show">新規登録</a>
-                    <a herf="#" class="login">ログイン</a>
+                    <a href="#lesson">レッスン</a>
+                    <a href="#" class="signup-show">新規登録</a>
+                    <a href="#" class="login">ログイン</a>
                 </div>
+                <i class="menu-icon fas fa-bras"></i>
+                <!-- <i class="menu-cancel fas fa-time"></!> -->
             </div>
-        </header>
-        <div class="menu-nav-wrapper">
+         </header>
+         <!-- <div class="menu-nav-wrapper">
             <ul class="menu-nav">
                 <li>
-                    <a herf="#">レッスン</a>
+                    <a href="#">レッスン</a>
                     <i class="fas fa-arrow-right"></i>
                 </li>
                 <li>
-                    <span herf="#" class="signup-show">新規登録</span>
+                    <span href="#" class="signup-show">新規登録</span>
                     <i class="fas fa-arrow-right signup-show"></i>
                 </li>
                 <li>
-                    <a herf="#">ログイン</a>
+                    <a href="#">ログイン</a>
                     <i class="fas fa-arrow-right login-modal"></i>
                 </li>
             </ul>
-        </div>
+        </div> -->
         <div class="signup-modal-wrapper" id="signup-modal">
             <div class="modal">
                 <div id="close-modal">
@@ -46,6 +46,11 @@
                 </div>
                 <div id="signup-from">
                     <h2>Emailで新規登録</h2>
+                    <from action="#">
+                        <intput class="from-control" type="text" placeholder="メールアドレス" />
+                        <intput class="from-control" type="password" placeholder="パスワード" />
+                        <div id="suubmit-btn">新規登録</div>
+                    </from>
                 </div>
             </div>
         </div>
@@ -53,23 +58,19 @@
             <div class="container">
                 <h1>LEARN TO CODE.</h1>
                 <h1>LEARN TO BE CREATIVE.</h1>
-                <p>progateはオンラインプログラミング学習サービスです。<br>
-                初心者にも優しいスライドとレッスンで、<br>
+                <p>Progateはオンラインプログラミング学習サービスです。</p>
+                <p>初心者にも優しいスライドとレッスンで、<br>
                 Webサービスを作りながらプログラミングを学んでいきましょう。</p>
                 <div class="btn-wrapper">
-                    <span herf="#" class="btn signup signup-show">新規登録はこちら</span>
+                    <span href="#" class="btn signup signup-show">新規登録はこちら</span>
                     <p>or</p>
-                    <a herf="#" class="btn facebook">
+                    <a href="#" class="btn facebook">
                         <i class="fab fa-facebook-f">
-                            ::before
-                        </i>
-                        "Facebookで登録"
+                        </i>Facebookで登録
                     </a>
-                    <a herf="#" class="btn twitter">
+                    <a href="#" class="btn twitter">
                         <i class="fab fa-twitter">
-                            ::before
-                        </i>
-                        "Twitterで登録"
+                        </i>Twitterで登録
                     </a>
                 </div>
             </div>
@@ -82,15 +83,17 @@
                 <div class="lessons">
                     <div class="lessons">
                         <div class="lesson-icon">
-                            <img src="https://prog-8.com/images/html/advanced/html.png">
+                            <img src="./img/html.png" />
                             <p>HTML & CSS</p>
                         </div>
-                        <p class="text-contents">Webページの作成に使用される言語です。<br>
-                        HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。</p>
+                        <p class="text-contents">
+                        Webページの作成に使用される言語です。<br>
+                        HTMLとCSSを組み合わせることで、静的なページを作り上げることができます。
+                        </p>
                     </div>
                     <div class="lesson">
                         <div class="lesson-icon">
-                            <img src="http://prog-8.com/images/html/advanced/jQery.png">
+                            <img src="http://prog-8.com/images/html/advanced/jQery.png" />
                             <p>jQery</p>
                         </div>
                         <p class="text-contents">
@@ -100,7 +103,7 @@
                     </div>
                     <div class="lesson">
                         <div class="lesson-icon">
-                            <img src="https://prog-8.com/images/html/advanced/ruby.png">
+                            <img src="https://prog-8.com/images/html/advanced/ruby.png" />
                             <p>Ruby</p>
                         </div>
                         <p class="text-contents">
@@ -110,11 +113,13 @@
                     </div>
                     <div class="lesson">
                         <div class="lesson-icon">
-                            <img src="https://prog-8.com/images/html/advanced/php.png">
+                            <img src="https://prog-8.com/images/html/advanced/php.png" />
                             <p>PHP</p>
                         </div>
-                        <p class="text-contents">HTMLだけではページの内容を変えることは出来ません。
-                        PHPはHTMLにプログラミングを埋め込み、それを可能にしています。</p>
+                        <p class="text-contents">
+                        HTMLだけではページの内容を変えることは出来ません。
+                        PHPはHTMLにプログラミングを埋め込み、それを可能にしています。
+                        </p>
                     </div>
                 </div>
             </div>
@@ -124,28 +129,27 @@
                 <div class="heading">
                     <h2>FAQ</h2>
                 </div>
-                <div class="faq">
                     <ul id="faq-list">
                         <li class="faq-list-item">
                             <h3 class="question">Progateの公式キャラクターはなんですか</h3>
                             <span>+</span>
-                            <div class="answer">
+                            <!-- <div class="answer">
                                 <p>忍者わんこと言います。忍者の格好をしたわんこです。猫ではありません。</p>
-                            </div>
+                            </div> -->
                         </li>
                         <li class="faq-list-item">
                             <h3 class="question">忍者わんこは雄ですか？それとも雌ですか？</h3>
                             <span>+</span>
-                            <div class="answer">
+                            <!-- <div class="answer">
                                 <p>忍者わんこは雄です。</p>
-                            </div>
+                            </div> -->
                         </li>
                         <li class="faq-list-item">
                             <h3 class="question">忍者わんこは何歳ですか？</h3>
                             <span>+</span>
-                            <div class="answer">
+                            <!-- <div class="answer">
                                 <p>忍者わんこは14歳です。</p>
-                            </div>
+                            </div> -->
                         </li>
                     <ul>
                 </div>
@@ -166,6 +170,8 @@
                 <p>Learn to code, learn to be creative.</p>
             </div>
         </footer>
+        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script> -->
     </body>
 </html>
 
