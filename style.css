@@ -111,12 +111,15 @@ header {
     cursor: pointer;
 }
 
-.header-left {
-    float: left;
+.header-container {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between;
 }
 
 .header-right {
-    float: right;
+    float: right: flex;
     margin-right: -25px;
 }
 
@@ -184,7 +187,7 @@ header {
     font-size: 12px;
     padding: 12px 12px;
     border: 1px solid #d0d5d8;
-    border-radius: spx;
+    border-radius: 5px;
 }
 
 #submit-btn {
@@ -320,7 +323,6 @@ footer {
 }
 
 .menu-icon {
-    padding-right: 15px;
     color: white;
     float: right;
     font-size: 25px;
@@ -339,7 +341,7 @@ footer {
     display: none;
 }
 
-.menu-nav {
+/* .menu-nav {
     position: fixed;
     top: 65px;
     background-color: rgba(34, 49, 52,0.9);
@@ -355,13 +357,13 @@ footer {
 .menu-nav a,
 .menu-nav span {
     display: inline-block;
-    /* padding: 14pox 6%; */
+    padding: 14pox 6%; 
     color: white;
     cursor: pointer;
-    /* background-image: url("image/矢印アイコン　右4.png");
+    background-image: url("image/矢印アイコン　右4.png");
     background-repeat: no-repeat;
     background-size: 15px;
-    background-position: 94% 50%; */
+    background-position: 94% 50%; 
 }
 
 .menu-nav i {
@@ -369,4 +371,6 @@ footer {
     color: white;
     float: right;
     cursor: pointer;
-}
+} */
+
+
