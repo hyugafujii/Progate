@@ -1,78 +1,78 @@
 @media all and (max-width: 1000px) {
-    .modal {
-        left: 22%;
-    }
+  .modal {
+    left: 22%;
+  }
 
-    .top-wrapper h1 {
-        font-size: 32px;
-    }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
 
-    .lesson {
-        width: 50%;
-        margin-bottom: 50px;
-    }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 
-    .heading h2 {
-        font-size: 20px;
-    }
+  .heading h2 {
+    font-size: 20px;
+  }
 
-    footer {
-        text-align: center;
-    }
+  footer {
+    text-align: center;
+  }
 }
 
 @media all and (max-width: 670px) {
-    .modal {
-        margin: 0 10px;
-        width: auto;
-        left: 0;
-    }
+  .modal {
+    margin: 0 10px;
+    width: auto;
+    left: 0;
+  }
 
-    .lessons {
-        display: block;
-    }
+  .lessons {
+    display: block;
+  }
 
-    .lesson {
-        width: 100%;
-    }
+  .lesson {
+    width: 100%;
+  }
 
-    .top-wrapper {
-        text-align: left;
-    }
+  .top-wrapper {
+    text-align: left;
+  }
 
-    .header-right {
-        display: none;
-    }
+  .header-right {
+    display: none;
+  }
 
-    .menu-icon {
-        display: block;
-    }
+  .menu-icon {
+    display: block;
+  }
 
-    .top-wrapper h1 {
-        font-size: 24px;
-    }
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
 
-    .top-wrapper p {
-        font-size: 14px;
-    }
+  .top-wrapper p {
+    font-size: 14px;
+  }
 
-    .btn {
-        width: 100%;
-    }
+  .btn {
+    width: 100%;
+  }
 
-    .facebook {
-        margin-bottom: 10px;
-    }
+  .facebook {
+    margin-bottom: 10px;
+  }
 
-    #faq-list {
-        width: auto;
-    }
+  #faq-list {
+    width: auto;
+  }
 
-    .faq-list-itme h3 {
-        padding-right: 25px;
-    }
+  .faq-list-item h3 {
+    padding-right: 25px;
+  }
 
-    .faq-list-itme span {
-        font-size: 16px;
-    }
+  .faq-list-item span {
+    font-size: 16px;
+  }
 }
