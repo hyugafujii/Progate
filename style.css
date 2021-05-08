@@ -129,7 +129,6 @@ header {
     padding: 0 25px;
     color: white;
     display: block;
-    float: left;
     cursor: pointer;
 }
 
@@ -324,7 +323,6 @@ footer {
 
 .menu-icon {
     color: white;
-    float: right;
     font-size: 25px;
     padding: 21px 0;
     cursor: pointer;
@@ -372,5 +370,3 @@ footer {
     float: right;
     cursor: pointer;
 } */
-
-
