@@ -138,7 +138,7 @@ header {
     transition: all 0.5s;
 }
 
-signup-modal-wrapper {
+.signup-modal-wrapper {
     display: none;
     position: fixed;
     top: 0;
