@@ -41,7 +41,7 @@ a {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   background-size: cover;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 
@@ -78,7 +78,7 @@ a {
 }
 
 .btn {
-  color: white;
+  color: #FFFFFF;
   padding: 8px 24px;
   opacity: 0.8;
   display: inline-block;
@@ -127,7 +127,7 @@ header {
 .header-right span {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: #FFFFFF;
   display: block;
   cursor: pointer;
 }
@@ -195,7 +195,7 @@ header {
   background-color: #5dca88;
   border: none;
   border-radius: 3px;
-  color: white;
+  color: #FFFFFF;
   margin: 10px auto;
   cursor: pointer;
 }
@@ -236,7 +236,7 @@ header {
   position: absolute;
   top: 44%;
   width: 100%;
-  color: white;
+  color: #FFFFFF;
 }
 
 .text-contents {
@@ -322,7 +322,7 @@ footer {
 }
 
 .menu-icon {
-  color: white;
+  color: #FFFFFF;
   font-size: 25px;
   padding: 21px 0;
   cursor: pointer;
@@ -331,7 +331,7 @@ footer {
 
 .menu-cancel {
   padding-right: 15px;
-  color: white;
+  color: #FFFFFF;
   float: right;
   font-size: 25px;
   padding: 10px 9px 21px;
@@ -356,7 +356,7 @@ footer {
 .menu-nav span {
   display: inline-block;
   padding: 14px 6%;
-  color: white;
+  color: #FFFFFF;
   cursor: pointer;
   background-image: url("image/矢印アイコン　右4.png");
   background-repeat: no-repeat;
@@ -366,7 +366,7 @@ footer {
 
 .menu-nav i {
   display: block;
-  color: white;
+  color: #FFFFFF;
   float: right;
   cursor: pointer;
 } */
